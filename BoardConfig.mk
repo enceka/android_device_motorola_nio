@@ -8,6 +8,10 @@ include device/motorola/sm8250-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/motorola/nio
 
+# GMS build flags, true by default
+# Ship with GMS packages, replaces default AOSP packages with Google manufactured packages.
+WITH_GMS := false
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := nio
 
